@@ -1033,7 +1033,8 @@ button:hover .index {
     overflow: hidden;
 }
 
-#portfolio {
+#portfolio,
+#project {
     display: none;
     height: auto;
     overflow-x: hidden;

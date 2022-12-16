@@ -1,0 +1,20 @@
+[
+    {
+        "id": "start",
+        "name": "stART",
+        "type": "iOS Application",
+        "description": "",
+        "slogan1": "",
+        "slogan2": "",
+        "image": ""
+    },
+    {
+        "id": "PlantPodium",
+        "name": "PlantPodium",
+        "type": "Web Application",
+        "slogan1": "",
+        "slogan2": "",
+        "description": "",
+        "image": ""
+    }
+]
