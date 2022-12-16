@@ -610,29 +610,23 @@
             </div>
             <div class="contact-content">
                 <!--Contact form-->
-                <form class="row g-3" action="https://formsubmit.co/743c52f1629e3413a3bcdd40123430b5" method="POST">
-                    <!-- Honeypot -->
-                    <input type="text" name="_honey" style="display: none;">
-
-                    <!-- Disable Captcha -->
-                    <input type="hidden" name="_captcha" value="false">
-                    <input type="hidden" name="_next" value="https://janihiral.github.io/success.html">
-                    <div class="contact-form">
-                        <div class="form-header">
-                            Message Me
-                        </div>
-                        <form id="myForm" action="#">
-                            <div class="input-line">
-                                <input id="name" type="text" name="name" placeholder="Name" class="input-name">
-                                <input id="email" type="email" name="email" placeholder="Email" class="input-name">
-                            </div>
-                            <input type="text" id="subject" placeholder="subject" name="subject" class="input-subject">
-                            <textarea id="body" class="input-textarea" placeholder="message" name="message"></textarea>
-                            <button type="submit" id="submit" value="send">Submit</button>
-                        </form>
-
+                <div class="contact-form">
+                    <div class="form-header">
+                        Message Me
                     </div>
-                </form>
+                    <form id="myForm" action="https://formsubmit.co/743c52f1629e3413a3bcdd40123430b5" method="POST">
+                        <input type="text" name="_honey" style="display: none;">
+                        <input type="hidden" name="_captcha" value="false">
+                        <input type="hidden" name="_next" value="https://janihiral.github.io">
+                        <div class="input-line">
+                            <input id="name" type="text" name="name" placeholder="Name" class="input-name">
+                            <input id="email" type="email" name="email" placeholder="Email" class="input-name">
+                        </div>
+                        <input type="text" id="subject" name="subject" placeholder="subject" class="input-subject">
+                        <textarea id="body" class="input-textarea" name="message" placeholder="message"></textarea>
+                        <button type="submit" id="submit" value="send">Submit</button>
+                    </form>
+                </div>
                 <!--Contact form-->
                 <!--Contact information-->
                 <div class="contact-info">
