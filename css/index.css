@@ -1595,7 +1595,8 @@ For devices with smaller width like mobile phone
     }
 
     #breaker {
-        height: 50vh;
+        /* height: 50vh; */
+        height: 100%;
         width: 200%;
         background-color: #c70039;
         opacity: 1;
