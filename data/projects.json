@@ -3,7 +3,7 @@
         "id": "start",
         "name": "stART",
         "type": "iOS Application",
-        "description": "My NFT app is a platform for users to create, store, and trade Non-Fungible Tokens (NFTs).Additionally, the app provides a marketplace where users can search for and purchase NFTs. The app also supports various forms of payment, including cryptocurrency, fiat currency, and stablecoins.",
+        "description": "My NFT app is a platform for users to create, store, and trade Non-Fungible Tokens (NFTs). Additionally, the app provides a marketplace where users can search for and purchase NFTs. The app also supports various forms of payment, including cryptocurrency, fiat currency, and stablecoins.",
         "slogan1": "",
         "slogan2": "",
         "image": "data/start/splash-start.png",
@@ -11,14 +11,36 @@
             {
                 "name": "High-Fidelity",
                 "image": "data/start/high-fidelity.png",
-                "link": "https://www.figma.com/file/qkachGz2jMDKFvJt2Kg9nv/Project2?node-id=207%3A2&t=SrBnJIlAhRcJzUJR-1",
-                "description": ""
+                "description": "The designs involve using of latest UI/UX design trends to create an app that is both aesthetically pleasing and intuitive.",
+                "buttons": [
+                    {
+                        "name": "Prototype",
+                        "link": "https://www.figma.com/proto/qkachGz2jMDKFvJt2Kg9nv/stART?node-id=353%3A37&scaling=scale-down&page-id=207%3A2&starting-point-node-id=353%3A30"
+                    },
+                    {
+                        "name": "Designs",
+                        "link": "/data/start/designs.png"
+                    },
+                    {
+                        "name": "High-FI",
+                        "link": "https://www.figma.com/file/qkachGz2jMDKFvJt2Kg9nv/stART?node-id=207%3A2"
+                    },
+                    {
+                        "name": "Wireframes",
+                        "link": "/data/start/wireframes.png"
+                    }
+                ]
             },
             {
                 "name": "Case Study",
                 "image": "data/start/case-study.png",
-                "link": "/data/start/case-study/case-study.pdf",
-                "description": ""
+                "description": "This case study focuses on the design of a Non-Fungible Token mobile application. The application will allow users to track, store, and manage their NFTs on their mobile device.",
+                "buttons": [
+                    {
+                        "name": "Case Study",
+                        "link": "/data/start/case-study/case-study.pdf"
+                    }
+                ]
             }
         ]
     },
@@ -34,7 +56,7 @@
             {
                 "name": "High-Fidelity",
                 "image": "data/start/high-fidelity.png",
-                "link": "https://www.figma.com/file/qkachGz2jMDKFvJt2Kg9nv/Project2?node-id=207%3A2&t=SrBnJIlAhRcJzUJR-1",
+                "link": "https://xd.adobe.com/view/ffe14d80-1674-47e1-b59b-77279a05a950-aab2/screen/6972f18a-7d5d-48c1-a567-d204da555c49",
                 "description": ""
             },
             {
