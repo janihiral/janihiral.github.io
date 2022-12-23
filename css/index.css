@@ -572,6 +572,7 @@ body {
     opacity: .8;
     font-size: 18px;
     font-weight: 200;
+    text-align: justify;
 }
 
 .about-main {
@@ -1692,6 +1693,7 @@ For devices with smaller width like mobile phone
     .about-second-line {
         opacity: .8;
         font-size: 15px;
+        text-align: justify;
     }
 
     .about-main {
@@ -2224,6 +2226,7 @@ for tabs and large phones
     .about-second-line {
         opacity: .8;
         font-size: 24px;
+        text-align: justify;
     }
 
     .about-main {
@@ -2663,6 +2666,7 @@ for tabs and large phones
         opacity: .8;
         font-size: 28px;
         font-weight: 200;
+        text-align: justify;
     }
 
     .cv a button {
