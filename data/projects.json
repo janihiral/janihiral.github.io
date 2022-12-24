@@ -43,28 +43,5 @@
                 ]
             }
         ]
-    },
-    {
-        "id": "plantpodium",
-        "name": "PlantPodium",
-        "type": "Web Application",
-        "slogan1": "",
-        "slogan2": "",
-        "description": "",
-        "image": "data/start/splash-start.png",
-        "details": [
-            {
-                "name": "High-Fidelity",
-                "image": "data/start/high-fidelity.png",
-                "link": "https://xd.adobe.com/view/ffe14d80-1674-47e1-b59b-77279a05a950-aab2/screen/6972f18a-7d5d-48c1-a567-d204da555c49",
-                "description": ""
-            },
-            {
-                "name": "Case Study",
-                "image": "data/start/case-study.png",
-                "link": "/data/start/case-study/case-study.pdf",
-                "description": ""
-            }
-        ]
     }
 ]
