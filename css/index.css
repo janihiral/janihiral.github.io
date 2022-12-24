@@ -3086,3 +3086,28 @@ for tabs and large phones
         border-color: transparent transparent white transparent;
     }
 }
+
+.timeline::after {
+    content: '';
+    position: absolute;
+    width: 6px;
+    background-color: #fff;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    margin-left: -3px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+}
+
+.image {
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    background-size: cover;
+    background-position: center;
+    border: solid 5px #fff;
+    border-radius: 50px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+    z-index: 2;
+}
