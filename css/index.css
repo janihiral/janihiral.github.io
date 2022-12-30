@@ -566,6 +566,7 @@ body {
     opacity: 1;
     margin-bottom: 10px;
     display: block;
+    text-align: justify;
 }
 
 .about-second-line {
@@ -1688,6 +1689,7 @@ For devices with smaller width like mobile phone
         opacity: 1;
         margin-bottom: 10px;
         display: block;
+        text-align: justify;
     }
 
     .about-second-line {
@@ -2221,6 +2223,7 @@ for tabs and large phones
         opacity: 1;
         margin-bottom: 10px;
         display: block;
+        text-align: justify;
     }
 
     .about-second-line {
@@ -2656,6 +2659,7 @@ for tabs and large phones
         opacity: 1;
         margin-bottom: 10px;
         display: block;
+        text-align: justify;
     }
 
     .about-first-line .color {

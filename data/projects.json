@@ -43,5 +43,27 @@
                 ]
             }
         ]
+    },
+    {
+        "id": "plantpodium",
+        "name": "PlantPodium",
+        "type": "iOS Application & Web Application",
+        "description": "PlantPodium is an app that helps users find the right plant for their home or office. It offers a simple UI, search filters, and reviews.",
+        "slogan1": "",
+        "slogan2": "",
+        "image": "data/plantpodium/splash-start.png",
+        "details": [
+            {
+                "name": "Case Study",
+                "image": "data/plantpodium/case-study.png",
+                "description": "Plantpodium is a UX project that focused on creating a user-friendly online shop for plant lovers. The user interface is designed to be modern and intuitive with strong visual elements. The final product is a website and iOS mobile application that is visually appealing and easy to use.",
+                "buttons": [
+                    {
+                        "name": "Case Study",
+                        "link": "/data/plantpodium/case-study/case-study.pdf"
+                    }
+                ]
+            }
+        ]
     }
 ]

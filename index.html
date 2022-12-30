@@ -820,44 +820,56 @@
                 }
             })
 
-            // $("#plantpodium").on('click', function () {
-            //     gsap.to('#navigation-content', 0, { display: "none", delay: .7 });
-            //     gsap.to('#navigation-content', 0, { y: '-100%', delay: .7 });
-            //     gsap.to('#header', 0, { display: "none" });
-            //     gsap.to('#about', 0, { display: "none" });
-            //     gsap.to('#contact', 0, { display: "none" });
-            //     // gsap.to('#blog',0,{display:"none"});
-            //     gsap.to('#portfolio', 0, { display: "none" });
-            //     gsap.to('#breaker', 0, { display: "block" });
-            //     gsap.to('#breaker-two', 0, { display: "block", delay: .1 });
-            //     gsap.to('#breaker', 0, { display: "none", delay: 2 });
-            //     gsap.to('#breaker-two', 0, { display: "none", delay: 2 });
-            //     gsap.to('#project', 0, { display: "block", delay: .7 });
-            //     gsap.to('#navigation-content', 0, { display: 'flex', delay: 2 });
-            //     var project;
-            //     for (var key in json) {
-            //         if (json.hasOwnProperty(key)) {
-            //             project = json[key];
-            //             if (project.id === 'plantpodium') {
-            //                 $("#project-detail").empty();
-            //                 $("#project-detail").append(`< div class="portfolio-header" > <span class="color">` +
-            //                     project.name + ` is a</span>` + project.type + `
-            //         <span class="header-caption"> ` + project.slogan1 + `<span class="color"> ` + project.slogan2 + `</span></span>
-            //     </div>`);
-            //                 for (var key in project.details) {
-            //                     var detail = project.details[key]
-            //                     $("#project-detail").append(`
-            //                 <div class="portfolio"> <div class= "portfolio-image"> <img src="` + detail.image +
-            //                         `" alt="` + detail.name + `"></div><div class="portfolio-text"><h2>` + detail.name +
-            //                         `</h2><p>` + detail.description +
-            //                         `</p><div class="button"><a href="#" data-text="PROJECT" id="` + +
-            //                         `"><button><span class="index"> View Project<i class="gg-arrow-right"></i></span></button></a></div></div></div>
-            //                 `);
-            //                 }
-            //             }
-            //         }
-            //     }
-            // })
+            $("#plantpodium").on('click', function () {
+                gsap.to('#navigation-content', 0, { display: "none", delay: .7 });
+                gsap.to('#navigation-content', 0, { y: '-100%', delay: .7 });
+                gsap.to('#header', 0, { display: "none" });
+                gsap.to('#about', 0, { display: "none" });
+                gsap.to('#contact', 0, { display: "none" });
+                // gsap.to('#blog',0,{display:"none"});
+                gsap.to('#portfolio', 0, { display: "none" });
+                gsap.to('#breaker', 0, { display: "block" });
+                gsap.to('#breaker-two', 0, { display: "block", delay: .1 });
+                gsap.to('#breaker', 0, { display: "none", delay: 2 });
+                gsap.to('#breaker-two', 0, { display: "none", delay: 2 });
+                gsap.to('#project', 0, { display: "block", delay: .7 });
+                gsap.to('#navigation-content', 0, { display: 'flex', delay: 2 });
+                var project;
+                for (var key in json) {
+                    if (json.hasOwnProperty(key)) {
+                        project = json[key];
+                        if (project.id === 'plantpodium') {
+                            $("#project-detail").empty();
+                            var html = ``
+                            html += `<div class="portfolio-header"> <span class="color">` +
+                                project.name + ` is an </span>` + project.type + `
+                    <span class="header-caption"> ` + project.slogan1 + `<span class="color"> ` + project.slogan2 + `</span></span>
+                </div>`
+                            for (var key in project.details) {
+                                var detail = project.details[key]
+                                html += `
+                            <div class="portfolio"> 
+                                <div class= "portfolio-image"> <img src="` + detail.image + `" alt="` + detail.name + `">
+                                </div>
+                                <div class="portfolio-text"><h2>` + detail.name + `</h2><p>` + detail.description + `</p>`
+                                if (detail.buttons) {
+                                    html += `<div class="button">`;
+                                    for (var buttonKey in detail.buttons) {
+                                        var button = detail.buttons[buttonKey]
+                                        html += `<a href="` + button.link + `" target="_blank"
+                                    "><button><span class="index"> ` + button.name + `<i class="gg-arrow-right"></i></span></button></a>`
+                                    }
+                                    html += `</div>`
+                                }
+                                html += `</div></div>`
+                            }
+                            $("#project-detail").append(html);
+                        }
+                    }
+                }
+            })
+
+
         });
     </script>
 </body>
