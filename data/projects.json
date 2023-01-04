@@ -54,6 +54,21 @@
         "image": "data/plantpodium/splash-start.png",
         "details": [
             {
+                "name": "High-Fidelity",
+                "image": "data/plantpodium/high-fidelity.png",
+                "description": "The designs involve using of latest UI/UX design trends to create an web application that is both aesthetically pleasing and intuitive.",
+                "buttons": [
+                    {
+                        "name": "Prototype",
+                        "link": "https://xd.adobe.com/view/9b6168e9-c925-487f-b3d1-e0051eef9e22-ce32"
+                    },
+                    {
+                        "name": "Designs",
+                        "link": "/data/plantpodium/designs.pdf"
+                    }
+                ]
+            },
+            {
                 "name": "Case Study",
                 "image": "data/plantpodium/case-study.png",
                 "description": "Plantpodium is a responsive UX Web application that focused on creating a user-friendly online shop for plant lovers. The user interface is designed to be modern and intuitive with strong visual elements. The final product is a website application that is visually appealing and easy to use.",
