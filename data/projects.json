@@ -1,5 +1,76 @@
 [
     {
+        "id": "petapet",
+        "name": "PetAPet",
+        "type": "Web Application and iOS Application",
+        "description": "PetApet is an ideal choice for pet lovers. It's an intuitive, user-friendly web and mobile application designed to make pet searching easy. It features a modern design allowing users to quickly search for their desired pet, and the mobile app has useful resources such as adoption tips, pet care advice, and pet-related news stories.",
+        "slogan1": "",
+        "slogan2": "",
+        "image": "data/start/splash-start.png",
+        "details": [
+            {
+                "name": "High-Fidelity",
+                "image": "data/start/high-fidelity.png",
+                "description": "Petfinder is a mobile and web app with UX designs that focus on intuitive usability. It features easy search and filter functions, a streamlined adoption process and interactive elements to engage users. The user interface is visually appealing and easy to navigate, with clear messaging, to make it simple for pet owners and adopters to connect.",
+                "buttons": [
+                    {
+                        "name": "Mobile Design",
+                        "link": "/data/petapet/designs.pdf"
+                    },
+                    {
+                        "name": "Responsive Web Design",
+                        "link": "/data/petapet/web-application-design.pdf"
+                    },
+                    {
+                        "name": "Mobile Application",
+                        "link": "/data/petapet/mobile-application.pdf"
+                    },
+                    {
+                        "name": "Web Application",
+                        "link": "/data/petapet/web-application.pdf"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "plantpodium",
+        "name": "PlantPodium",
+        "type": "Web Application",
+        "description": "PlantPodium is an app that helps users find the right plant for their home or office. It offers a simple UI, search filters, and reviews.",
+        "slogan1": "",
+        "slogan2": "",
+        "image": "data/plantpodium/splash-start.png",
+        "details": [
+            {
+                "name": "High-Fidelity",
+                "image": "data/plantpodium/high-fidelity.png",
+                "description": "The designs involve using of latest UI/UX design trends to create an web application that is both aesthetically pleasing and intuitive.",
+                "buttons": [
+                    {
+                        "name": "Prototype",
+                        "link": "https://xd.adobe.com/view/9b6168e9-c925-487f-b3d1-e0051eef9e22-ce32"
+                    },
+                    {
+                        "name": "Designs",
+                        "link": "/data/plantpodium/designs.pdf"
+                    }
+                ]
+            },
+            {
+                "name": "Case Study",
+                "image": "data/plantpodium/case-study.png",
+                "description": "Plantpodium is a responsive UX Web application that focused on creating a user-friendly online shop for plant lovers. The user interface is designed to be modern and intuitive with strong visual elements. The final product is a website application that is visually appealing and easy to use.",
+                "buttons": [
+                    {
+                        "name": "Case Study",
+                        "link": "/data/plantpodium/case-study/case-study.pdf"
+                    }
+                ]
+            }
+        ]
+    },
+    {
         "id": "start",
         "name": "stART",
         "type": "iOS Application",
@@ -39,43 +110,6 @@
                     {
                         "name": "Case Study",
                         "link": "/data/start/case-study/case-study.pdf"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "id": "plantpodium",
-        "name": "PlantPodium",
-        "type": "Web Application",
-        "description": "PlantPodium is an app that helps users find the right plant for their home or office. It offers a simple UI, search filters, and reviews.",
-        "slogan1": "",
-        "slogan2": "",
-        "image": "data/plantpodium/splash-start.png",
-        "details": [
-            {
-                "name": "High-Fidelity",
-                "image": "data/plantpodium/high-fidelity.png",
-                "description": "The designs involve using of latest UI/UX design trends to create an web application that is both aesthetically pleasing and intuitive.",
-                "buttons": [
-                    {
-                        "name": "Prototype",
-                        "link": "https://xd.adobe.com/view/9b6168e9-c925-487f-b3d1-e0051eef9e22-ce32"
-                    },
-                    {
-                        "name": "Designs",
-                        "link": "/data/plantpodium/designs.pdf"
-                    }
-                ]
-            },
-            {
-                "name": "Case Study",
-                "image": "data/plantpodium/case-study.png",
-                "description": "Plantpodium is a responsive UX Web application that focused on creating a user-friendly online shop for plant lovers. The user interface is designed to be modern and intuitive with strong visual elements. The final product is a website application that is visually appealing and easy to use.",
-                "buttons": [
-                    {
-                        "name": "Case Study",
-                        "link": "/data/plantpodium/case-study/case-study.pdf"
                     }
                 ]
             }
