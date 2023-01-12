@@ -6,11 +6,11 @@
         "description": "PetApet is an ideal choice for pet lovers. It's an intuitive, user-friendly web and mobile application designed to make pet searching easy. It features a modern design allowing users to quickly search for their desired pet, and the mobile app has useful resources such as adoption tips, pet care advice, and pet-related news stories.",
         "slogan1": "",
         "slogan2": "",
-        "image": "data/start/splash-start.png",
+        "image": "data/petapet/splash-start.png",
         "details": [
             {
                 "name": "Mobile Application",
-                "image": "data/start/high-fidelity.png",
+                "image": "data/petapet/mobile-application.png",
                 "description": "Petfinder is a mobile and web app with UX designs that focus on intuitive usability. It features easy search and filter functions, a streamlined adoption process and interactive elements to engage users. The user interface is visually appealing and easy to navigate, with clear messaging, to make it simple for pet owners and adopters to connect.",
                 "buttons": [
                     {
@@ -25,7 +25,7 @@
             },
             {
                 "name": "Web Application",
-                "image": "data/start/high-fidelity.png",
+                "image": "data/petapet/web-application.png",
                 "description": "Petfinder is a mobile and web app with UX designs that focus on intuitive usability. It features easy search and filter functions, a streamlined adoption process and interactive elements to engage users. The user interface is visually appealing and easy to navigate, with clear messaging, to make it simple for pet owners and adopters to connect.",
                 "buttons": [
                     {
